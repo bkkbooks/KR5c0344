@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0344/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0344/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 鴈門公妙解錄
+  date: '2015-08-29 00:56:20.677702'
+  source:
+    repository: kanripo
+    path: KR5c0344
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0344_000-ZTDZ.yaml, hash: 'sha256:cb5cb57186b231b92cc5eb699e480a75257ddd8411b8e6da15843e4acd2e84df'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0344_000-ZTDZ.markers.yaml, hash: 'sha256:4aaa67aba8fdf058b09828b0d20806ced2f8ed02d1f4bdd4c9572b873b151b12'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0344_SJB_000-190365c
+    span:
+    - body
+    - 0
+    - 2380
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e3a5c02fab351fa135e7c4216d81e4cc28539fc27f8f6c7e1cf59386d81adbca
